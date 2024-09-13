@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4 ,2rem);
+    grid-template-rows: repeat(4 ,2rem);
+    gap: 2px;
+    border: 1px solid black;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(76, 76, 75);
+}
+input {
+    grid-column:1/5;
+    text-align: end;
+    background-color: rgb(215, 218, 218);
+}
+ 
+.equal {
+    grid-column: 3/5;
+}
